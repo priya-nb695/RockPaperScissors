@@ -1,16 +1,21 @@
 body{
     padding:0;
     margin:0;
-  
+  color:#67150c;
+  background-color:#8dc9c5;;
 }
-h1{
-   display:flex;
+.container h1{
+    display:flex;
     justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
 }
 
 .game-buttons{
     display:flex; 
+    flex-wrap: wrap;
     justify-content: center;
+    background-color: rgb(255, 255, 255);
   
 }
 
